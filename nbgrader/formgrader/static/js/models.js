@@ -41,7 +41,7 @@ var GradeUI = Backbone.View.extend({
             var max_score = this.model.get("max_score");
             if (val > max_score) {
                 this.animateInvalidValue();
-                this.model.save({"manual_score": max_score});
+                this.model.save({"manual_score": val});
             } else if (val < 0) {
                 this.animateInvalidValue();
                 this.model.save({"manual_score": 0});
