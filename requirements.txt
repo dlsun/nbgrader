@@ -1,12 +1,1 @@
-sqlalchemy
-python-dateutil
-jupyter
-notebook==4.1
-nbconvert
-nbformat
-traitlets
-jupyter_core
-jupyter_client
-tornado
-six
-requests
+-e .
